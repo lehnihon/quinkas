@@ -26,32 +26,29 @@ new WOW().init();
 
 <body <?php body_class(); ?>>
 <div id="page" class="hfeed site">
-	<header id="header">
+	<header id="header" class="fadeIn wow header">
 		<div class="container">
+			<div class="menu-responsivo">
+				<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					<span class="glyphicon glyphicon-align-justify" aria-hidden="true"></span>
+				</button>
+				<ul class="dropdown-menu">
+					<li><a href="<?php echo esc_url( home_url( '/cervejas' ) ); ?>">CERVEJAS</a></li
+					><li><a href="<?php echo esc_url( home_url( '/sobre' ) ); ?>">A QUINKAS</a></li
+					><li><a href="<?php echo esc_url( home_url( '/visite' ) ); ?>">VISITE A FÁBRICA</a></li
+					><li><a href="<?php echo esc_url( home_url( '/contato' ) ); ?>">DELIVERY</a></li
+					><li><a href="<?php echo esc_url( home_url( '/contato' ) ); ?>">ONDE ENCONTRAR</a></li
+					><li><a href="<?php echo esc_url( home_url( '/contato' ) ); ?>">CONTATO</a></li>
+				</ul>								
+			</div>
 			<div class="row header-logo">
 				<div class="col-md-3 col-md-offset-4 logo-center">
-					<div class="menu-responsivo">
-						<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-							<span class="glyphicon glyphicon-align-justify" aria-hidden="true"></span>
-						</button>
-						<ul class="dropdown-menu">
-						<li><a href="<?php echo esc_url( home_url( '/' ) ); ?>">Início</a></li
-						><li><a href="<?php echo esc_url( home_url( '/' )."quem-somos" ); ?>">Quem Somos</a></li
-						><li><a href="<?php echo esc_url( home_url( '/' )."fotos" ); ?>">Fotos</a></li
-						><li><a href="<?php echo esc_url( home_url( '/' )."massagens" ); ?>">Massagens</a></li
-						><li><a href="<?php echo esc_url( home_url( '/' ) )."acupuntura"; ?>">Acupuntura</a></li
-						><li><a href="<?php echo esc_url( home_url( '/' ) )."estetica"; ?>">Estética</a></li
-						><li><a href="<?php echo esc_url( home_url( '/' ) )."corporativo"; ?>">Corporativo</a></li
-						><li><a href="<?php echo esc_url( home_url( '/' ) )."terapeutas"; ?>">Terapeutas</a></li
-						><li><a href="<?php echo esc_url( home_url( '/' ) )."contato"; ?>">Contato</a></li>
-						</ul>								
-					</div>
-					<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/logo-top.png"; ?>"/></a>
+					
 				</div>
 				<div class="col-md-offset-3 col-md-2 redes">
 					<ul class="redes_sociais_header">
 						<li class="youtube"><a target="_blank" href="#"></a></li>
-						<li class="instagram"><a target="_blank" href="https://www.instagram.com/restaurantearomaesabor/"></a></li>
+						<li class="instagram"><a target="_blank" href=""></a></li>
 						<li class="twitter"><a target="_blank" href="#"></a></li>
 					</ul>					
 				</div>
@@ -60,15 +57,12 @@ new WOW().init();
 				<div class="col-md-12">
 					<nav>
 						<ul class="menu-principal clearfix">
-							<li><a href="<?php echo esc_url( home_url( '/' ) ); ?>">Início</a></li
-							><li><a href="<?php echo esc_url( home_url( '/' )."quem-somos" ); ?>">Quem Somos</a></li
-							><li><a href="<?php echo esc_url( home_url( '/' )."fotos" ); ?>">Fotos</a></li
-							><li><a href="<?php echo esc_url( home_url( '/' )."massagens" ); ?>">Massagens</a></li
-							><li><a href="<?php echo esc_url( home_url( '/' ) )."acupuntura"; ?>">Acupuntura</a></li
-							><li><a href="<?php echo esc_url( home_url( '/' ) )."estetica"; ?>">Estética</a></li
-							><li><a href="<?php echo esc_url( home_url( '/' ) )."corporativo"; ?>">Corporativo</a></li
-							><li><a href="<?php echo esc_url( home_url( '/' ) )."terapeutas"; ?>">Terapeutas</a></li
-							><li><a href="<?php echo esc_url( home_url( '/' ) )."contato"; ?>">Contato</a></li>
+							<li><a href="<?php echo esc_url( home_url( '/cervejas' ) ); ?>">CERVEJAS</a></li
+							><li><a href="<?php echo esc_url( home_url( '/sobre' ) ); ?>">A QUINKAS</a></li
+							><li><a href="<?php echo esc_url( home_url( '/visite' ) ); ?>">VISITE A FÁBRICA</a></li
+							><li><a href="<?php echo esc_url( home_url( '/contato' ) ); ?>">DELIVERY</a></li
+							><li><a href="<?php echo esc_url( home_url( '/contato' ) ); ?>">ONDE ENCONTRAR</a></li
+							><li><a href="<?php echo esc_url( home_url( '/contato' ) ); ?>">CONTATO</a></li>
 						</ul>
 					</nav><!-- #site-navigation -->						
 				</div>

@@ -13,8 +13,11 @@ get_header(); ?>
 		<div class="container">
 			<div class="row wow fadeIn">
 				<div class="col-md-12 text-center">
-					<h1>Contato</h1>
-					<p>Preencha o formulário abaixo para entrar em contato</p>
+					<h1>Visite a Quinkas</h1>
+					<p>Para visitar a Quinkas Bier, preencha o formulário com todos os seus dados. 
+A inscrição é individual e deverá ser preenchido um formulário para cada visitante.</p>
+					<p>O simples preenchimento do formulário não garante sua inscrição, entraremos em 
+contato com você para confirmar sua visita.</p>
 				</div>
 			</div><br><br>
 			<div class="row wow fadeIn">
