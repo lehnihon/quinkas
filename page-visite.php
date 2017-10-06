@@ -19,12 +19,9 @@ A inscrição é individual e deverá ser preenchido um formulário para cada vi
 					<p>O simples preenchimento do formulário não garante sua inscrição, entraremos em 
 contato com você para confirmar sua visita.</p>
 				</div>
-			</div><br><br>
-			<div class="row wow fadeIn">
-				<div class="col-md-10 col-md-offset-1 text-center">
-					form
-				</div>
-			</div><br><br>
+			</div>
+			<?php echo do_shortcode('[contact-form-7 id="28" title="Visite"]'); ?>
+			<br><br>
 			<div class="row wow fadeIn">
 				<div class="col-md-10 col-md-offset-1 text-center">
 					<h2>Localização</h2>

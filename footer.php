@@ -18,7 +18,7 @@
 					<p>
 						Fique por dentro das nossas<br> novidades, promoções e <br>lançamentos.
 					</p>
-					form
+					<?php echo do_shortcode('[contact-form-7 id="26" title="News"]'); ?>
 				</div>
 				<div class="col-md-3 col-md-offset-1">
 					<h2>Esteja sempre <br>com a gente!</h2>
@@ -26,9 +26,9 @@
 						Continue conectado com <br> a <strong>Quinkas</strong> em suas redes sociais favoritas.
 					</p>
 					<ul class="redes_sociais_header">
-						<li class="youtube"><a target="_blank" href="#"></a></li>
-						<li class="instagram"><a target="_blank" href=""></a></li>
-						<li class="twitter"><a target="_blank" href="#"></a></li>
+						<li class="youtube"><a target="_blank" href="https://www.youtube.com/channel/UCHycCe88ZrQTeGi7YJneyhA?view_as=subscriber"></a></li>
+						<li class="instagram"><a target="_blank" href="https://www.instagram.com/quinkasbier"></a></li>
+						<li class="twitter"><a target="_blank" href="https://www.facebook.com/QuinkasBier-257209691435462/"></a></li>
 					</ul>
 				</div>
 			</div>

@@ -155,32 +155,64 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 		margin-bottom: 5px;
 		color:#606060;
 	}
-	.input-receba{
+
+	.input-message{
+		background-color:#efc031;
+		text-align:left;
 		border:0;
-		padding:5px
+		width:100%;
+		border-radius:50px;
+		margin-bottom:10px;
+		padding:20px;
 	}
 
-	.input-contato{
-		border:0;
-		padding:5px;
-		background-color: #f4f4f4;
+	.input-message::placeholder{
+		color:#9e3a27 !important;
 	}
 
-	.input-contatob{
+	.input-contato {
+		background-color:#efc031;
+		text-align:left;
 		border:0;
-		padding:5px;
-		background-color: white;
+		width:100%;
+		border-radius:50px;
+		margin-bottom:10px;
+		padding:5px 20px;
+	}
+	.input-contato::placeholder{
+		color:#9e3a27 !important;
 	}
 
-	.btn-enviar{
-		background-color:#b5ab3a;
-		padding:10px 50px;
-		color:white;
+	.input-contato:active,.input-contato:hover,.input-contato:focus,.input-message:active,.input-message:hover,.input-message:focus{
 		border:0;
-		font-weight: bold;
+		outline:0;
 	}
-	.btn-enviar:hover{
-		background-color:#dad38b;
+
+
+	.input-news {
+		background-color:#efc031;
+		text-align:center;
+		border:0;
+		width:200px;
+		border-radius:50px;
+		margin-bottom:10px;
+		padding:5px 0;
+	}
+	.input-news::placeholder{
+		color:#FFF !important;
+	}
+
+	.btn-news{
+		padding:5px 0;
+		border:0;
+		width:190px;
+		background-color:#9e3a27;
+		color:#FFF;
+		border-radius:50px;
+	}
+
+	.btn-news:hover{
+		background-color:#e8765f;
 	}
 
 	@import 'header';

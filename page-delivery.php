@@ -13,11 +13,11 @@ get_header(); ?>
 		<div class="container">
 			<div class="row wow fadeIn">
 				<div class="col-md-12 text-center">
-					<h1>Contato</h1>
+					<h1>Delivery</h1>
 					<p>Preencha o formulário abaixo para entrar em contato</p>
 				</div>
 			</div>
-			<?php echo do_shortcode('[contact-form-7 id="25" title="Contato"]'); ?>
+			<?php echo do_shortcode('[contact-form-7 id="24" title="Delivery"]'); ?>
 			<br><br>
 			<div class="row wow fadeIn">
 				<div class="col-md-10 col-md-offset-1 text-center">

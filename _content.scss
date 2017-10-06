@@ -1,6 +1,6 @@
 div#banner{
 	position: relative;
-	background-image: url("images/background.jpg");
+	background-image: url("images/backgroundb.jpg");
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -9,6 +9,7 @@ div#banner{
 	background-position: top center;
 	padding-top:300px;
 	padding-bottom:20px;
+
 }
 
 div#content{
@@ -223,11 +224,36 @@ div#content{
 		h1{
 			margin-bottom:20px !important;
 		}
+
+		.col-md-5, .col-md-6{
+			margin-bottom:0px !important;
+		}
+	}
+
+	.onde{
+		article{
+			header{
+				float:left;
+				width:40%;
+				padding-right:15px;
+			}
+			.entry-summary{
+				h2{
+					font-size:18px;
+					padding:10px 0 !important;
+					color:#9e3a27 !important;
+				}
+				p{
+					font-size:16px !important;
+				}
+			}
+		}
 	}
 }
 @media (max-width: 991px) { 
 	div#banner{
 		padding-top:100px;
+		background-image: url("images/background.jpg");
 	}
 	.risca-titulo{
 			float:none !important;
