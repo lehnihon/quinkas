@@ -311,7 +311,8 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     -o-background-size: cover;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center center; }
+    background-position: center center;
+    background-attachment: fixed; }
     #page div#content section#detalhes p {
       font-size: 40px;
       font-weight: bold;
